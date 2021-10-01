@@ -8,11 +8,20 @@ html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 200;
 }
+.menu{
+    background-color: #808c97;
+    letter-spacing: .2rem;
+    word-spacing: 1rem;
+    padding: 5px;
+}
 a{
     text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
 }
 .container{
-    min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,6 +31,8 @@ a{
 {
     background-image: url(./bg\ image.jpg);
     background-size: cover;
+    min-height: 100vh;
+    width: 100%;
     background-position: top center;
     position: relative;
 }
@@ -36,33 +47,34 @@ a{
     opacity: .3;
 }
 #hero .hero{
-    max-width: 1200px;
+    max-width: 1200%;
     margin: 0 auto;
     padding: 100px 400px;
     justify-content: flex;
 }
 #hero h1{
     display: block;
-    width: fit-content;
+    width: max-content;
     font-size: 40px;
     position: relative;
     color: black;
 }
 #hero h2{
     display: block;
-    width: fit-content;
+    width: max-content;
     font-size: 40px;
     position: relative;
-    color: black;
+    color:black;
 }
 #hero h3{
     display: block;
-    width: fit-content;
+    width: max-content;
     font-size: 40px;
     position: relative;
-    color: black;
+    color:black;
 }
 #aboutme{
+    background-color: #dabcb2;
 }
 #aboutme .aboutme{
     text-align: center;
@@ -87,4 +99,28 @@ a{
     line-height: 1.3rem;
     font-weight: 300;
     letter-spacing: .05rem;
+}
+#skills{
+    background-color: gray;
+}
+#skills .skills-title{
+    padding: 0;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: black;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    bottom: 50px;
+}
+#skills .skills-top p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    line-height: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    align-items: center;
 }
